@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorizador de Pared</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    canvas { margin-top: 1rem; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Cambiar color de una pared</h1>
+  <input type="file" id="imageInput" accept="image/*" />
+  <input type="color" id="colorPicker" value="#00ff00" />
+  <button id="segmentBtn">Aplicar Color</button>
+  <br><br>
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
